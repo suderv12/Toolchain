@@ -1,6 +1,5 @@
----
 applications:
-- name: SudevTool 
-  memory: 256M
-  instances: 1
-  domain: mybluemix.net
+   - name: SudevTool
+     random-route: true
+     memory: 128M
+     instances: 1
