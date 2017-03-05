@@ -1,0 +1,6 @@
+---
+applications:
+- name: SudevTool 
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
